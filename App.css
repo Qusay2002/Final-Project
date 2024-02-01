@@ -1,0 +1,106 @@
+*{
+  margin: 0%;
+  padding: 0;
+
+}
+
+.App {
+  text-align: center;
+  background-image: url(WhatsApp\ Image\ 2023-12-24\ at\ 7.14.31\ AM.jpeg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:aliceblue
+  
+}
+
+.cont{
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgba(0,0,0,0.501);
+  height: 440px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.cont h1{
+font-size: 2rem;
+font-weight: 400;
+text-align: center;
+text-align: center;
+margin: 50px;
+
+}
+
+.cont input{
+  margin: 40px;
+
+width: 30%;
+margin: auto;
+padding: 5px;
+border-radius: 5px;
+border: none;
+text-align: center;
+font-size: 1.2rem;
+background-color: rgba(240,248,255,0.767);
+
+}
+
+.cont button{
+  margin: 40px;
+
+  width: 30%;
+  margin: auto;
+  padding: 5px;
+border-radius: 5px;
+border: none;
+text-align: center;
+font-size: 1.2rem;
+background-color: rgb(2,35,63);
+color:aliceblue;
+cursor: pointer;
+}
+
+.weather{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 40%;
+
+  
+}
+
+.weather h2{
+  font-size: large;
+  font-weight: 700;
+  
+}
+
+.weather h3{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgp(248,241,232);
+
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 40px;
+  border-color:rgb(2,35,63);
+  cursor: pointer;
+
+}
